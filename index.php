@@ -27,7 +27,7 @@ add_filter( 'media_row_actions', 'ps_add_fix_link', 10, 1 );
  */
 function ps_media_fix_scripts() {
 
-	wp_enqueue_script( 'fix-media-ajax', plugins_url( '/ajax.js', __FILE__ ), array('jquery'), '1.0', true );
+	wp_enqueue_script( 'fix-media-ajax', plugins_url( '/assets/ajax.js', __FILE__ ), array('jquery'), '1.0', true );
 
 	wp_localize_script( 'fix-media-ajax', 'fixmedia', array(
 		'ajax_url' => admin_url( 'admin-ajax.php' )
