@@ -9,4 +9,4 @@ Once the plugin is activated all new uploads will have clean urls
 You can go to the Media section on the WordPress admin (On list mode) and click on the "Fix" link to apply the sanitiazion
 
 ## Credits
-The sanitiazion function used in this plugin was created by [Vaughn Royko API](http://vaughnroyko.com/better-upload-filename-sanitization-in-wordpress/)
+The sanitiazion function used in this plugin was created by [Vaughn Royko](http://vaughnroyko.com/better-upload-filename-sanitization-in-wordpress/)
